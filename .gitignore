@@ -6,5 +6,9 @@
 # production
 /build
 
-# ide
+# IDE
 /.idea
+
+# Documentation
+ТЗ-текст.pages
+ТЗ-дизайн.pages
