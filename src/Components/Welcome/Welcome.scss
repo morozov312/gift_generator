@@ -1,0 +1,30 @@
+.welcome {
+  position: relative;
+  color: #ffffff;
+  font-size: 25px;
+
+  &__title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    line-height: 2em;
+  }
+
+  &__description {
+    line-height: 1.4em;
+  }
+
+  &__btn {
+    position: absolute;
+    background: none;
+    border: 2px #ffffff solid;
+    color: #ffffff;
+    padding: 0.5em 1.7em;
+    margin: 2em 0;
+    right: 0;
+    &:hover{
+      color: #000000;
+      background-color: #ffffff;
+      transition: background-color 0.5s linear;
+    }
+  }
+}
