@@ -1,7 +1,5 @@
 .welcome {
   position: relative;
-  color: #ffffff;
-  font-size: 25px;
 
   &__title {
     font-size: 1.5em;
@@ -21,7 +19,8 @@
     padding: 0.5em 1.7em;
     margin: 2em 0;
     right: 0;
-    &:hover{
+
+    &:hover {
       color: #000000;
       background-color: #ffffff;
       transition: background-color 0.5s linear;
