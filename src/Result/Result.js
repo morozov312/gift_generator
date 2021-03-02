@@ -1,11 +1,11 @@
 import React from 'react'
-import './App.scss'
 
-function App() {
+function Result() {
     return (
         <div>
+
         </div>
     )
 }
 
-export default App
+export default Result

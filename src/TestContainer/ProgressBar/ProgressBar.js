@@ -1,11 +1,11 @@
 import React from 'react'
-import './App.scss'
 
-function App() {
+function ProgressBar() {
     return (
         <div>
+
         </div>
     )
 }
 
-export default App
+export default ProgressBar
