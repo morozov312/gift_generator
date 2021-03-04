@@ -1,35 +1,90 @@
-import getId from 'uniqid'
-
 const questionsBase = [
     {
-        id: getId(),
         question: 'Lorem ipsum ?',
-        answers: ['a', 'b', 'c']
+        answers: [
+            {
+                text: 'a',
+                value: 'men'
+            },
+            {
+                text: 'b',
+                value: 'woman'
+            },
+            {
+                text: 'c',
+                value: 'old man'
+            },
+        ]
     },
     {
-        id: getId(),
         question: 'Lorem ipsum ? \n Lorem ipsum ?',
-        answers: ['d', 'e', 'i']
+        answers: [
+            {
+                text: 'd',
+                value: 'birthday'
+            },
+            {
+                text: 'e',
+                value: 'woman1'
+            },
+            {
+                text: 'i',
+                value: 'birthday1'
+            },
+        ]
     },
     {
-        id: getId(),
         question: 'Lorem ipsum ?',
-        answers: ['f', 'g', 'h']
+        answers: [
+            {
+                text: 's',
+                value: 'rich'
+            },
+            {
+                text: 'f',
+                value: 'woman2'
+            },
+            {
+                text: 'r',
+                value: 'birthday2'
+            },
+        ]
     },
     {
-        id: getId(),
         question: 'Lorem ipsum ? \n Lorem ipsum ?',
-        answers: ['i', 's', 'f']
+        answers: [
+            {
+                text: 's',
+                value: 'old'
+            },
+            {
+                text: 'f',
+                value: 'woman3'
+            },
+            {
+                text: 'r',
+                value: 'birthday3'
+            },
+        ]
     },
     {
-        id: getId(),
         question: 'Lorem ipsum ?',
-        answers: ['ff', 'gg', 'ce']
+        answers: [
+            {
+                text: 's',
+                value: 'bar'
+            },
+            {
+                text: 'f',
+                value: 'woman4'
+            },
+            {
+                text: 'r',
+                value: 'birthday4'
+            },
+        ]
     },
 ]
 
-// console.log(questionsBase.map(i => {
-//      return i.id
-// }))
 
 export default questionsBase

@@ -20,7 +20,6 @@ function TestContainer({showResult}) {
                 <pre>{questionsBase[current].question}</pre>
                 <TestAnswers
                     answers={questionsBase[current].answers}
-                    id={questionsBase[current].id}
                     clickUpdate={update}
                 />
             </div>

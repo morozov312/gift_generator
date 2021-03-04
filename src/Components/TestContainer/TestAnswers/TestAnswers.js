@@ -2,7 +2,7 @@ import React, {useContext} from 'react'
 import './TestAnswers.scss'
 import Context from '../../ResultContext/context'
 
-function Answers({answers, id, clickUpdate}) {
+function Answers({answers, clickUpdate}) {
 
     const resultAnswers = useContext(Context)
 
@@ -15,12 +15,12 @@ function Answers({answers, id, clickUpdate}) {
         <form className="testAnswers">
             {
                 answers.map((answer, index) =>
-                    <label key={id + answer}>
-                        {answer}&nbsp;
+                    <label key={answer.value}>
+                        {answer.text}&nbsp;
                         <input
                             name={`group${index}`}
                             type="radio"
-                            value={answer}
+                            value={answer.value}
                             onClick={(e) => saveResult(e)}
                         />
                     </label>)
