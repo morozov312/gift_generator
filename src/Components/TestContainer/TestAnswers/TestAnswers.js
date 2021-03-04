@@ -1,8 +1,16 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import './TestAnswers.scss'
-
+import Context from '../../ResultContext/context'
 
 function Answers({answers, id, clickUpdate}) {
+
+    const resultAnswers = useContext(Context)
+
+    function saveResult(e) {
+        clickUpdate()
+        resultAnswers.push(e.target.value)
+    }
+
     return (
         <form className="testAnswers">
             {
@@ -12,8 +20,8 @@ function Answers({answers, id, clickUpdate}) {
                         <input
                             name={`group${index}`}
                             type="radio"
-                            value="answer"
-                            onClick={() => clickUpdate()}
+                            value={answer}
+                            onClick={(e) => saveResult(e)}
                         />
                     </label>)
             }

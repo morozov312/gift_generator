@@ -1,7 +1,7 @@
 import React from 'react'
 import './Welcome.scss'
 
-function Welcome() {
+function Welcome({showTest}) {
     return (
         <div className="welcome">
             <h1 className="welcome__title">Lorem ipsum dolor sit amet</h1>
@@ -13,7 +13,7 @@ function Welcome() {
                 Adipisci asperiores aspernatur delectus, ducimus expedita libero molestiae obcaecati, officiis qui <br/>
                 quisquam repellendus! <br/>
             </p>
-            <button className="welcome__btn">Start</button>
+            <button className="welcome__btn" onClick={() => showTest()}>Start</button>
         </div>
     )
 }

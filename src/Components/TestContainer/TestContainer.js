@@ -5,11 +5,12 @@ import TestAnswers from './TestAnswers/TestAnswers'
 import ProgressBar from './ProgressBar/ProgressBar'
 
 
-function TestContainer() {
+function TestContainer({showResult}) {
     let [current, setCurrent] = useState(0)
 
     function update() {
         if (current < questionsBase.length - 1) setCurrent(current + 1)
+        else showResult()
     }
 
     return (
