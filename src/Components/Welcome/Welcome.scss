@@ -1,29 +1,60 @@
 .welcome {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
 
-  &__title {
-    font-size: 1.5em;
-    text-transform: uppercase;
-    line-height: 2em;
-  }
-
-  &__description {
-    line-height: 1.4em;
+  &__btn-container {
+    position: absolute;
+    bottom: 7%;
+    width: 100%;
   }
 
   &__btn {
-    position: absolute;
-    background: none;
-    border: 2px #ffffff solid;
-    color: #ffffff;
-    padding: 0.5em 1.7em;
-    margin: 2em 0;
-    right: 0;
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 3px;
+    color: #E8EFF1;
+    text-shadow: -2px -1px #F17555;
+    background: #1E1958;
+    transition: .3s;
+
+    &:after {
+      content: "";
+      position: absolute;
+      height: 105%;
+      width: 105%;
+      z-index: -1;
+      left: -4px;
+      top: -1px;
+      background: #F17555;
+      transform: skewY(2deg);
+      transition: .3s;
+    }
 
     &:hover {
-      color: #000000;
-      background-color: #ffffff;
-      transition: background-color 0.5s linear;
+      text-shadow: none;
+    }
+
+    &:hover:after {
+      transform: none;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
     }
   }
+
+  &__img {
+    object-fit: cover;
+    max-width: 100%;
+  }
 }
+

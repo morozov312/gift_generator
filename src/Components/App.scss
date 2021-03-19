@@ -1,6 +1,13 @@
 .content {
   width: 100%;
-  max-width: 1100px;
+  max-width: 750px;
   margin: 0 auto;
-  padding-top: 15%;
+  padding-top: 4%;
+}
+
+.top-gift {
+  position: fixed;
+  right: 0;
+  object-fit: cover;
+  max-width: 35%;
 }

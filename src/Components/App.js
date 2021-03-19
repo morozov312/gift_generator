@@ -5,6 +5,8 @@ import Context from './ResultContext/context'
 import Welcome from './Welcome/Welcome'
 import TestContainer from './TestContainer/TestContainer'
 import Result from './Result/Result'
+import giftImg from '../Assets/images/gift1.png'
+// import svg1 from '../Assets/images/2.svg'
 
 const resultAnswers = []
 
@@ -25,6 +27,8 @@ function App() {
 
     return (
         <Context.Provider value={resultAnswers}>
+            <img src={giftImg} alt="gift" className="top-gift"/>
+            {/*<img src={svg1}/>*/}
             <main className="content">
                 {renderItem(visible, setVisible)}
             </main>
