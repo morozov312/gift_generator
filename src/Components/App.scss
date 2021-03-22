@@ -1,13 +1,30 @@
 .content {
   width: 100%;
-  max-width: 750px;
+  max-width: 50vw;
   margin: 0 auto;
   padding-top: 4%;
 }
 
-.top-gift {
+.giftImg {
   position: fixed;
-  right: 0;
   object-fit: cover;
-  max-width: 35%;
+
+  &-big {
+    right: 0;
+    max-width: 35%;
+  }
+
+  &-cut {
+    max-width: 8%;
+    left: 4%;
+    top: 2%;
+  }
+
+  &-small {
+    max-width: 25%;
+    right: 1%;
+    bottom: 1%;
+  }
+
+
 }

@@ -9,7 +9,7 @@ function Welcome({showTest}) {
                 <img src={mainImg} alt="main" className="welcome__img"/>
             </div>
             <div className="welcome__btn-container">
-                <button className="welcome__btn" onClick={() => showTest()}>Вперед!</button>
+                <button className="welcome__btn" onClick={() => showTest()}>Пройти тест</button>
             </div>
         </div>
     )
