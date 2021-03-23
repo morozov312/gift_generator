@@ -1,8 +1,10 @@
 .content {
-  width: 100%;
-  max-width: 50vw;
+  width: 55%;
   margin: 0 auto;
-  padding-top: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85%;
 }
 
 .giftImg {
@@ -25,6 +27,44 @@
     right: 1%;
     bottom: 1%;
   }
+}
 
+@media (max-width: 1024px) {
+  .content {
+    width: 70%;
+  }
+  .giftImg {
+    &-big {
+      max-width: 23%;
+    }
+
+    &-cut {
+      max-width: 13%;
+    }
+
+    &-small {
+      max-width: 35%;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .content {
+    height: 100%;
+    width: 90%;
+  }
+  .giftImg {
+    &-big {
+      max-width: 35%;
+    }
+
+    &-cut {
+      max-width: 20%;
+    }
+
+    &-small {
+      max-width: 45%;
+    }
+  }
 
 }

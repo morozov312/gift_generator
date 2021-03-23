@@ -2,7 +2,6 @@
 @import "../../Assets/styles/variabels";
 
 .welcome {
-  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +10,7 @@
   &__btn-container {
     position: absolute;
     overflow: hidden;
-    bottom: 8%;
+    bottom: 0;
     width: 100%;
   }
 
@@ -36,8 +35,15 @@
   }
 
   &__img {
+    display: block;
     object-fit: cover;
     max-width: 103%;
+  }
+}
+
+@media (max-width: 425px) {
+  .welcome {
+    height: 50%;
   }
 }
 
