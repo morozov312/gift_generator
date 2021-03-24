@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import questionsBase from './questionBase'
+import PropTypes from 'prop-types'
+import questionsBase from './questionBase.json'
 import './TestContainer.scss'
 import TestAnswers from './TestAnswers/TestAnswers'
 import ProgressBar from './ProgressBar/ProgressBar'
@@ -14,9 +15,9 @@ function TestContainer({showResult}) {
     }
 
     return (
-        <div>
+        <div className="test">
             <ProgressBar count={questionsBase.length} selected={current}/>
-            <div className="testItem">
+            <div className="test__item">
                 <pre>{questionsBase[current].question}</pre>
                 <TestAnswers
                     answers={questionsBase[current].answers}
@@ -25,6 +26,10 @@ function TestContainer({showResult}) {
             </div>
         </div>
     )
+}
+
+TestContainer.propTypes = {
+    showResult: PropTypes.func
 }
 
 export default TestContainer
