@@ -1,14 +1,13 @@
 import React, {useState} from 'react'
-import './App.scss'
-
 import {WELCOME, TEST, RESULT} from './constants'
 import Context from './ResultContext/context'
-import Welcome from './Welcome/Welcome'
-import TestContainer from './TestContainer/TestContainer'
-import Result from './Result/Result'
+import './App.scss'
 import bigGift from '../Assets/images/big_gift.png'
 import smallGifts from '../Assets/images/smal_gifts.svg'
 import cutGift from '../Assets/images/cut_gift.svg'
+import Welcome from './Welcome/Welcome'
+import TestContainer from './TestContainer/TestContainer'
+import Result from './Result/Result'
 
 const resultAnswers = []
 
@@ -19,11 +18,11 @@ function App() {
         switch (state) {
             default:
             case WELCOME:
-                return <Welcome showTest={setState.bind(null, TEST)}/>
+                return <Welcome showTest={() => setState(TEST)}/>
             case TEST:
-                return <TestContainer showResult={setState.bind(null, RESULT)}/>
+                return <TestContainer showResult={() => setState(RESULT)}/>
             case RESULT:
-                return <Result showWelcome={setState.bind(null, WELCOME)} resultsArr={resultAnswers}/>
+                return <Result showWelcome={() => setState(WELCOME)} resultsArr={resultAnswers}/>
         }
     }
 

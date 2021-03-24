@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import './Welcome.scss'
 import mainImg from './main.png'
 
@@ -13,6 +14,10 @@ function Welcome({showTest}) {
             </div>
         </div>
     )
+}
+
+Welcome.propTypes = {
+    showTest: PropTypes.func
 }
 
 export default Welcome
