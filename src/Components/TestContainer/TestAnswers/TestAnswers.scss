@@ -1,5 +1,12 @@
-.testAnswers{
+.testAnswers {
   display: flex;
   flex-direction: column;
-  margin-left: 15%;
+  margin-left: 5%;
+
+  &__answer {
+    &:hover {
+      color: #fe5921;
+      transition: color .2s ease-in;
+    }
+  }
 }

@@ -5,7 +5,6 @@ import './TestContainer.scss'
 import TestAnswers from './TestAnswers/TestAnswers'
 import ProgressBar from './ProgressBar/ProgressBar'
 
-
 function TestContainer({showResult}) {
     let [current, setCurrent] = useState(0)
 
@@ -18,7 +17,7 @@ function TestContainer({showResult}) {
         <div className="test">
             <ProgressBar count={questionsBase.length} selected={current}/>
             <div className="test__item">
-                <pre>{questionsBase[current].question}</pre>
+                <p>{questionsBase[current].question}</p>
                 <TestAnswers
                     answers={questionsBase[current].answers}
                     clickUpdate={update}

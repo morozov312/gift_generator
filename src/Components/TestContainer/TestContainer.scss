@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import "../../Assets/styles/variabels";
+
 .test {
+  background-color: #ffffff;
+  background-image: repeating-radial-gradient(circle at center, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 1px, transparent 1px, transparent 100%);
+  background-size: 3px 3px;
+  @include adaptive-font(24, 15);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.3em;
   width: 100%;
-  height: 50%;
-  border: 1px white solid;
+  min-height: 50%;
+  border: 1px #ffeede solid;
+  border-radius: 2em;
+  padding: 1.5em;
+  color: #524f4e;
+
   &__item {
     display: flex;
     justify-content: center;
