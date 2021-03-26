@@ -1,12 +1,32 @@
 .testAnswers {
   display: flex;
   flex-direction: column;
-  margin-left: 5%;
+  margin-left: 4%;
+  width: 100%;
+  max-width: 40%;
 
   &__answer {
-    &:hover {
-      color: #fe5921;
-      transition: color .2s ease-in;
+    font-weight: 200;
+    position: relative;
+    margin: 0.3em 0;
+
+    & input {
+      position: absolute;
+      left: -1em;
+      top: 0.4em;
+      @media (max-width: 768px) {
+        top: 0.3em;
+        left: -1.3em;
+      }
     }
+
+    &:hover {
+      color: #ff4c0d;
+      transition: color .1s ease-in;
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 3em;
   }
 }

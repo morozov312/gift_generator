@@ -22,7 +22,7 @@ function Answers({answers, clickUpdate}) {
                             value={answer.value}
                             onClick={(e) => saveResult(e)}
                         />
-                        &nbsp;{answer.text}
+                        {answer.text}
                     </label>)
             }
         </form>
