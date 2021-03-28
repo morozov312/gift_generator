@@ -15,13 +15,10 @@ function TestContainer({showResult}) {
 
     return (
         <div className="test">
-            <ProgressBar count={questionsBase.length} selected={current}/>
+            <ProgressBar barLength={questionsBase.length} selected={current}/>
             <div className="test__item">
                 <p>{questionsBase[current].question}</p>
-                <TestAnswers
-                    answers={questionsBase[current].answers}
-                    clickUpdate={update}
-                />
+                <TestAnswers answers={questionsBase[current].answers} clickUpdate={update}/>
             </div>
         </div>
     )
