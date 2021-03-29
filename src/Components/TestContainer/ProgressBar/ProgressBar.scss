@@ -1,8 +1,52 @@
 .progressBar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 5%;
-  color: black;
-  background-color: #ffffff;
-  border-radius: 5px;
+
+  &__item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .circle {
+      display: flex;
+      width: 0.6em;
+      height: 0.6em;
+      border: 1px #000000 solid;
+      border-radius: 50%;
+      align-items: center;
+      padding: 2px;
+
+
+      &:before {
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        background-color: black;
+        border-radius: 50%;
+      }
+
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        margin-left: calc(0.6em + 2px);
+        height: 3px;
+        width: calc(100% - (0.6em + 4px));
+        background-color: black;
+      }
+    }
+
+    &:last-child {
+      .circle:after {
+        width: 0;
+        height: 0;
+      }
+    }
+  }
 }

@@ -31,6 +31,9 @@
 
     @media (max-width: 768px) {
       flex-direction: column;
+      p {
+        width: 100%;
+      }
     }
   }
 }

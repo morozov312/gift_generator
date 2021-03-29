@@ -7,18 +7,15 @@ function ProgressBar({barLength, selected}) {
     const progressItems = []
 
     for (let i = 0; i < barLength; i++) {
-        progressItems.push(
-            {
-                value: (i === selected) ? '^' : '>',
-                id: getId()
-            }
-        )
+        progressItems.push({id: getId()})
     }
 
     return (
         <div className="progressBar">
             {
-                progressItems.map(i => <div key={i.id}>{i.value}</div>)
+                progressItems.map(i => <div key={i.id} className="progressBar__item">
+                    <div className="circle"/>
+                </div>)
             }
         </div>
     )
