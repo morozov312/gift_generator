@@ -4,6 +4,9 @@
   margin-left: 4%;
   width: 100%;
   max-width: 40%;
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
 
   &__answer {
     font-weight: 200;

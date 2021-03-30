@@ -3,6 +3,12 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5%;
+  margin-left: -12%;
+  width: 124%;
+
+  @media (max-width: 768px) {
+    margin-bottom: 20%;
+  }
 
   &__item {
     width: 100%;
@@ -11,42 +17,51 @@
     justify-content: center;
     position: relative;
 
+    $circlePadding: 2px;
+    $circleSize: 0.6em;
+
     .circle {
       display: flex;
-      width: 0.6em;
-      height: 0.6em;
+      width: $circleSize;
+      height: $circleSize;
       border: 1px #000000 solid;
       border-radius: 50%;
       align-items: center;
-      padding: 2px;
+      padding: $circlePadding;
 
-
-      &:before {
+      &:before, &:after {
         content: "";
         display: block;
+        background-color: #000000;
+      }
+
+      &:before {
         height: 100%;
         width: 100%;
-        margin: 0 auto;
-        background-color: black;
         border-radius: 50%;
       }
 
       &:after {
-        content: "";
-        display: block;
         position: absolute;
-        margin-left: calc(0.6em + 2px);
-        height: 3px;
-        width: calc(100% - (0.6em + 4px));
-        background-color: black;
+        height: 2px;
+        width: calc(100% - (#{$circleSize} + #{$circlePadding*2}));
+        margin-left: calc(#{$circleSize} + #{$circlePadding});
       }
     }
 
-    &:last-child {
-      .circle:after {
-        width: 0;
-        height: 0;
+    $activeColor: #F68657;
+
+    .active {
+      border-color: $activeColor;
+
+      &:before, &:after {
+        background-color: $activeColor;
       }
+    }
+
+    &:last-child .circle:after {
+      width: 0;
+      height: 0;
     }
   }
 }
