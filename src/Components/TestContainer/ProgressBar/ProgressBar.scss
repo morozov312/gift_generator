@@ -59,6 +59,23 @@
       }
     }
 
+    .animate:after {
+      animation: fill 0.7s forwards;
+    }
+
+    @keyframes fill {
+      0% {
+        background-color: #000000;
+        opacity: 0.5;
+      }
+      50% {
+        opacity: 0.6;
+      }
+      90% {
+        opacity: 0.9;
+      }
+    }
+
     &:last-child .circle:after {
       width: 0;
       height: 0;

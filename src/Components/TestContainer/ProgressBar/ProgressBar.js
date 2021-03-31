@@ -7,19 +7,23 @@ function ProgressBar({barLength, selected}) {
     const progressItems = []
 
     for (let i = 0; i < barLength; ++i) {
-        const isActive = (i < selected) ? 'active' : ''
-        progressItems.push({
+        progressItems[i] = {
             id: getId(),
-            isActive
-        })
+            isActive: (i < selected) ? 'active' : ''
+        }
     }
 
     return (
         <div className="progressBar">
             {
-                progressItems.map(i => <div key={i.id} className="progressBar__item">
-                    <div className={`circle ${i.isActive}`}/>
-                </div>)
+                progressItems.map((i, index) => {
+                    const isAnimate = (index === (selected - 1)) ? 'animate' : ''
+                    return (
+                        <div key={i.id} className="progressBar__item">
+                            <div className={`circle ${i.isActive} ${isAnimate}`}/>
+                        </div>
+                    )
+                })
             }
         </div>
     )
