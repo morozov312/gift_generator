@@ -4,7 +4,7 @@ import getId from 'uniqid'
 import './ProgressBar.scss'
 
 function ProgressBar({barLength, selected}) {
-    const progressItems = []
+    const progressItems = Array(barLength)
 
     for (let i = 0; i < barLength; ++i) {
         progressItems[i] = {

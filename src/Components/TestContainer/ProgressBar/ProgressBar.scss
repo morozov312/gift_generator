@@ -60,19 +60,16 @@
     }
 
     .animate:after {
-      animation: fill 0.7s forwards;
+      animation: fill 0.7s ease-in;
     }
 
     @keyframes fill {
-      0% {
+      from {
         background-color: #000000;
-        opacity: 0.5;
+        opacity: 0.7;
       }
-      50% {
-        opacity: 0.6;
-      }
-      90% {
-        opacity: 0.9;
+      to {
+        background-color: $activeColor;
       }
     }
 
