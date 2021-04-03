@@ -4,6 +4,7 @@
   margin-left: 4%;
   width: 100%;
   max-width: 40%;
+
   @media (max-width: 768px) {
     max-width: 100%;
   }
@@ -17,19 +18,50 @@
       position: absolute;
       left: -1em;
       top: 0.4em;
+      opacity: 0;
+
       @media (max-width: 768px) {
         top: 0.3em;
         left: -1.3em;
       }
     }
 
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: -1em;
+      top: 0.4em;
+      width: 0.5em;
+      height: 0.5em;
+      border: 1px #000000 solid;
+      border-radius: 50%;
+    }
+
+    $activeColor: #f86d3c;
+
     &:hover {
-      color: #ff4c0d;
-      transition: color .1s ease-in;
+      color: $activeColor;
+      transition: color .3s ease-in;
+
+      &:before {
+        border-color: $activeColor;
+        transition: border-color .3s ease-in;
+      }
+    }
+
+    &:active, &:checked {
+      &:before {
+        box-shadow: inset 0 0 0 2px #ffffff;
+        background: $activeColor;
+      }
     }
   }
 
   @media (max-width: 768px) {
     margin-top: 3em;
+  }
+  @media (max-width: 425px) {
+    margin-top: 1.5em;
   }
 }

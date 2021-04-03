@@ -2,7 +2,7 @@
 @import "../../Assets/styles/variabels";
 
 .test {
-  @include adaptive-font(22, 15);
+  @include adaptive-font(22, 12);
   width: 100%;
   min-height: 55%;
   padding: 3em 2.5em;
