@@ -1,15 +1,292 @@
-{
-  "men": {
-    "birthday": {
-      "rich": {
-        "old": {
-          "bar": {
-            "title": "clock",
-            "description": "dishwashed",
-            "name": "r01.jpg"
-          }
-        }
+[
+  {
+    "pair": [
+      {
+        "title": "Билеты на концерт общей любимой группы",
+        "imgPath": "r010101.jpg"
+      },
+      {
+        "title": "Романтический ужин",
+        "imgPath": "r010102.jpg"
+      },
+      {
+        "title": "Акула из IKEA",
+        "imgPath": "r010103.jpg"
       }
-    }
+    ],
+    "relative": [
+      {
+        "title": "Домашний гриль",
+        "imgPath": "r010201.jpg"
+      },
+      {
+        "title": "Теплый домашний свитер",
+        "imgPath": "r010202.jpg"
+      },
+      {
+        "title": "Сертификат на СПА-процедуры",
+        "imgPath": "r010203.jpg"
+      }
+    ],
+    "friend": [
+      {
+        "title": "Набор дорого алкоголя в маленьких бутылочках",
+        "imgPath": "r010301.jpg"
+      },
+      {
+        "title": "Рюкзак для путешествий",
+        "imgPath": "r010302.jpg"
+      },
+      {
+        "title": "Кроссовки от любимого бренда",
+        "imgPath": "r010303.jpg"
+      }
+    ],
+    "familiar": [
+      {
+        "title": "Термокружка для кофе",
+        "imgPath": "r010401.jpg"
+      },
+      {
+        "title": "Деньги в креативном конверте",
+        "imgPath": "r010402.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r010403.jpg"
+      }
+    ]
+  },
+  {
+    "worker": [
+      {
+        "title": "Белая маркерная доска для заметок",
+        "imgPath": "r020101.jpg"
+      },
+      {
+        "title": "Офисный органайзер с беспроводной зарядкой",
+        "imgPath": "r020102.jpg"
+      },
+      {
+        "title": "Антистресс игрушку для рабочего места, например маятник ньютона",
+        "imgPath": "r020103.jpg"
+      }
+    ],
+    "party": [
+      {
+        "title": " ",
+        "imgPath": "r020201.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r020202.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r020203.jpg"
+      }
+    ],
+    "homebody": [
+      {
+        "title": "",
+        "imgPath": "r020301.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r020302.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r020303.jpg"
+      }
+    ],
+    "athlete": [
+      {
+        "title": "Домашний тренажер",
+        "imgPath": "r020401.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r020402.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r020403.jpg"
+      }
+    ]
+  },
+  {
+    "little": [
+      {
+        "title": "",
+        "imgPath": "r030101.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r030102.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r030103.jpg"
+      }
+    ],
+    "very": [
+      {
+        "title": "",
+        "imgPath": "r030201.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r030202.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r030203.jpg"
+      }
+    ],
+    "economical": [
+      {
+        "title": "Копилка для мелочи",
+        "imgPath": "r030301.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r030302.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r030303.jpg"
+      }
+    ],
+    "urgently": [
+      {
+        "title": "",
+        "imgPath": "r030401.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r030402.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r030403.jpg"
+      }
+    ]
+  },
+  {
+    "technical": [
+      {
+        "title": "",
+        "imgPath": "r040101.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r040102.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r040103.jpg"
+      }
+    ],
+    "eater": [
+      {
+        "title": "Торт на заказ",
+        "imgPath": "r040201.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r040202.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r040203.jpg"
+      }
+    ],
+    "forgetful": [
+      {
+        "title": "",
+        "imgPath": "r040301.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r040302.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r040303.jpg"
+      }
+    ],
+    "laconic": [
+      {
+        "title": "",
+        "imgPath": "r040401.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r040401.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r040401.jpg"
+      }
+    ]
+  },
+  {
+    "humorous": [
+      {
+        "title": "",
+        "imgPath": "r050101.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r050102.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r050103.jpg"
+      }
+    ],
+    "fair": [
+      {
+        "title": "",
+        "imgPath": "r050201.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r050202.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r050203.jpg"
+      }
+    ],
+    "ambitious": [
+      {
+        "title": "",
+        "imgPath": "r050301.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r050302.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r050303.jpg"
+      }
+    ],
+    "misanthrope": [
+      {
+        "title": "",
+        "imgPath": "r050401.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r050402.jpg"
+      },
+      {
+        "title": "",
+        "imgPath": "r050403.jpg"
+      }
+    ]
   }
-}
+]
