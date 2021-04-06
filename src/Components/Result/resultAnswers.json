@@ -74,29 +74,29 @@
     ],
     "party": [
       {
-        "title": " ",
+        "title": "Домашний набор для приготовления коктейлей ",
         "imgPath": "r020201.jpg"
       },
       {
-        "title": "",
+        "title": "Bluetooth колонка",
         "imgPath": "r020202.jpg"
       },
       {
-        "title": "",
+        "title": "Фотоаппарат мнговенной печати Polaroid",
         "imgPath": "r020203.jpg"
       }
     ],
     "homebody": [
       {
-        "title": "",
+        "title": "Уютный домашний плед",
         "imgPath": "r020301.jpg"
       },
       {
-        "title": "",
+        "title": "Кресло-мешок",
         "imgPath": "r020302.jpg"
       },
       {
-        "title": "",
+        "title": "Домашние тапочки",
         "imgPath": "r020303.jpg"
       }
     ],
@@ -106,11 +106,11 @@
         "imgPath": "r020401.jpg"
       },
       {
-        "title": "",
+        "title": "Кворик для тренировок",
         "imgPath": "r020402.jpg"
       },
       {
-        "title": "",
+        "title": "Комплекс витаминов или упаковку спортивного питания",
         "imgPath": "r020403.jpg"
       }
     ]
@@ -118,29 +118,29 @@
   {
     "little": [
       {
-        "title": "",
+        "title": "Чехол для телефона",
         "imgPath": "r030101.jpg"
       },
       {
-        "title": "",
+        "title": "Оригинальная кружка",
         "imgPath": "r030102.jpg"
       },
       {
-        "title": "",
+        "title": "Набор для покера",
         "imgPath": "r030103.jpg"
       }
     ],
     "very": [
       {
-        "title": "",
+        "title": "Планшет или смартфон, например iPad",
         "imgPath": "r030201.jpg"
       },
       {
-        "title": "",
+        "title": "Путевка на море",
         "imgPath": "r030202.jpg"
       },
       {
-        "title": "",
+        "title": "Дорогое украшение. Классический пример - часы",
         "imgPath": "r030203.jpg"
       }
     ],
@@ -150,41 +150,37 @@
         "imgPath": "r030301.jpg"
       },
       {
-        "title": "",
+        "title": "Большая упаковка фруктового чая с различными вкусами",
         "imgPath": "r030302.jpg"
       },
       {
-        "title": "",
+        "title": "Оригинальная флешка",
         "imgPath": "r030303.jpg"
       }
     ],
     "urgently": [
       {
-        "title": "",
+        "title": "Деньги в долларах",
         "imgPath": "r030401.jpg"
       },
       {
-        "title": "",
+        "title": "Подарочный сертификат, например на фотосессию",
         "imgPath": "r030402.jpg"
-      },
-      {
-        "title": "",
-        "imgPath": "r030403.jpg"
       }
     ]
   },
   {
     "technical": [
       {
-        "title": "",
+        "title": "Электрическая зубная щетка",
         "imgPath": "r040101.jpg"
       },
       {
-        "title": "",
+        "title": "Экшн камера или квадрокоптер",
         "imgPath": "r040102.jpg"
       },
       {
-        "title": "",
+        "title": "Проектор",
         "imgPath": "r040103.jpg"
       }
     ],
@@ -194,97 +190,77 @@
         "imgPath": "r040201.jpg"
       },
       {
-        "title": "",
+        "title": "Нож для пиццы и пиццу на заказ",
         "imgPath": "r040202.jpg"
       },
       {
-        "title": "",
+        "title": "Подарочный набор мёда",
         "imgPath": "r040203.jpg"
       }
     ],
     "forgetful": [
       {
-        "title": "",
+        "title": "Настольные часы будильник",
         "imgPath": "r040301.jpg"
       },
       {
-        "title": "",
+        "title": "Стильный ежедневник или записную книжку",
         "imgPath": "r040302.jpg"
-      },
-      {
-        "title": "",
-        "imgPath": "r040303.jpg"
       }
     ],
     "laconic": [
       {
-        "title": "",
+        "title": "Новый кошелек",
         "imgPath": "r040401.jpg"
       },
       {
-        "title": "",
-        "imgPath": "r040401.jpg"
-      },
-      {
-        "title": "",
-        "imgPath": "r040401.jpg"
+        "title": "Акцию крупной компании или деньги в криптовалюте",
+        "imgPath": "r040402.jpg"
       }
     ]
   },
   {
     "humorous": [
       {
-        "title": "",
+        "title": "Футболка с прикольной надписью",
         "imgPath": "r050101.jpg"
       },
       {
-        "title": "",
+        "title": "Конструктор Lego",
         "imgPath": "r050102.jpg"
-      },
-      {
-        "title": "",
-        "imgPath": "r050103.jpg"
       }
     ],
-    "fair": [
+    "creativity": [
       {
-        "title": "",
+        "title": "Набор для рисования",
         "imgPath": "r050201.jpg"
       },
       {
-        "title": "",
+        "title": "Музыкальный инструмент",
         "imgPath": "r050202.jpg"
-      },
-      {
-        "title": "",
-        "imgPath": "r050203.jpg"
       }
     ],
     "ambitious": [
       {
-        "title": "",
+        "title": "Книгу по бизнесу",
         "imgPath": "r050301.jpg"
       },
       {
-        "title": "",
+        "title": "Патчи для глаз или маску для сна",
         "imgPath": "r050302.jpg"
-      },
-      {
-        "title": "",
-        "imgPath": "r050303.jpg"
       }
     ],
-    "misanthrope": [
+    "introvert": [
       {
-        "title": "",
+        "title": "Интересная книга",
         "imgPath": "r050401.jpg"
       },
       {
-        "title": "",
+        "title": "Полноразмерные наушники",
         "imgPath": "r050402.jpg"
       },
       {
-        "title": "",
+        "title": "Солнцезащитные очки",
         "imgPath": "r050403.jpg"
       }
     ]

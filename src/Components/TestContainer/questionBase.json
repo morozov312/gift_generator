@@ -91,8 +91,8 @@
         "value": "humorous"
       },
       {
-        "text": "Простоту и честность",
-        "value": "fair"
+        "text": "Креативность и изобретательность",
+        "value": "creativity"
       },
       {
         "text": "Амбициозность и ум",
@@ -100,7 +100,7 @@
       },
       {
         "text": "Ничего. И вообще людей не любит",
-        "value": "misanthrope"
+        "value": "introvert"
       }
     ]
   }
