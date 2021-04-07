@@ -1,8 +1,12 @@
 @import "reset.min";
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
 #root {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #3d0b0b;
   color: #ffffff;
   font-size: 25px;

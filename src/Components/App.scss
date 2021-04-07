@@ -5,6 +5,13 @@
   align-items: center;
   justify-content: center;
   height: 85%;
+  @media (max-width: 1024px) {
+    width: 70%;
+  }
+  @media (max-width: 550px) {
+    height: 100%;
+    width: 90%;
+  }
 }
 
 .giftImg {
@@ -14,57 +21,35 @@
   &-big {
     right: 0;
     max-width: 35%;
+    @media (max-width: 1024px) {
+      max-width: 23%;
+    }
+    @media (max-width: 550px) {
+      max-width: 35%;
+    }
   }
 
   &-cut {
     max-width: 8%;
     left: 4%;
     top: 2%;
+    @media (max-width: 1024px) {
+      max-width: 13%;
+    }
+    @media (max-width: 550px) {
+      max-width: 20%;
+    }
   }
 
   &-small {
-    max-width: 25%;
+    max-width: 20%;
     right: 1%;
     bottom: 1%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .content {
-    width: 70%;
-  }
-  .giftImg {
-    &-big {
-      max-width: 23%;
-    }
-
-    &-cut {
-      max-width: 13%;
-    }
-
-    &-small {
+    @media (max-width: 1024px) {
       max-width: 35%;
     }
-  }
-}
-
-@media (max-width: 550px) {
-  .content {
-    height: 100%;
-    width: 90%;
-  }
-  .giftImg {
-    &-big {
-      max-width: 35%;
-    }
-
-    &-cut {
-      max-width: 20%;
-    }
-
-    &-small {
+    @media (max-width: 550px) {
       max-width: 45%;
     }
   }
-
 }

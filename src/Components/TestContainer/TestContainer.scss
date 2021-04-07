@@ -3,13 +3,11 @@
 
 .test {
   @include adaptive-font(22, 12);
+  @include background();
   width: 100%;
   min-height: 55%;
   padding: 3em 2.5em;
   margin-top: 13%;
-  background-color: #ffffff;
-  background-image: repeating-radial-gradient(circle at center, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 1px, transparent 1px, transparent 100%);
-  background-size: 3px 3px;
   color: #524f4e;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;

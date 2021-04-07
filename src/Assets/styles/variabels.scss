@@ -4,3 +4,9 @@ $maxWidth: 1700;
   $maxWidth: $maxWidth - 320;
   font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
 }
+
+@mixin background {
+  background-color: #ffffff;
+  background-image: repeating-radial-gradient(circle at center, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 1px, transparent 1px, transparent 100%);
+  background-size: 3px 3px;
+}

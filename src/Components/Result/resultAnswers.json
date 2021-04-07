@@ -3,57 +3,57 @@
     "pair": [
       {
         "title": "Билеты на концерт общей любимой группы",
-        "imgPath": "r010101.jpg"
+        "filename": "r010101.jpeg"
       },
       {
         "title": "Романтический ужин",
-        "imgPath": "r010102.jpg"
+        "filename": "r010102.jpeg"
       },
       {
         "title": "Акула из IKEA",
-        "imgPath": "r010103.jpg"
+        "filename": "r010103.jpeg"
       }
     ],
     "relative": [
       {
         "title": "Домашний гриль",
-        "imgPath": "r010201.jpg"
+        "filename": "r010201.jpeg"
       },
       {
         "title": "Теплый домашний свитер",
-        "imgPath": "r010202.jpg"
+        "filename": "r010202.jpeg"
       },
       {
         "title": "Сертификат на СПА-процедуры",
-        "imgPath": "r010203.jpg"
+        "filename": "r010203.jpeg"
       }
     ],
     "friend": [
       {
         "title": "Набор дорого алкоголя в маленьких бутылочках",
-        "imgPath": "r010301.jpg"
+        "filename": "r010301.jpeg"
       },
       {
         "title": "Рюкзак для путешествий",
-        "imgPath": "r010302.jpg"
+        "filename": "r010302.jpeg"
       },
       {
         "title": "Кроссовки от любимого бренда",
-        "imgPath": "r010303.jpg"
+        "filename": "r010303.jpeg"
       }
     ],
     "familiar": [
       {
         "title": "Термокружка для кофе",
-        "imgPath": "r010401.jpg"
+        "filename": "r010401.jpeg"
       },
       {
         "title": "Деньги в креативном конверте",
-        "imgPath": "r010402.jpg"
+        "filename": "r010402.jpeg"
       },
       {
         "title": "",
-        "imgPath": "r010403.jpg"
+        "filename": "r010403.jpeg"
       }
     ]
   },
@@ -61,57 +61,57 @@
     "worker": [
       {
         "title": "Белая маркерная доска для заметок",
-        "imgPath": "r020101.jpg"
+        "filename": "r020101.jpeg"
       },
       {
         "title": "Офисный органайзер с беспроводной зарядкой",
-        "imgPath": "r020102.jpg"
+        "filename": "r020102.jpeg"
       },
       {
         "title": "Антистресс игрушку для рабочего места, например маятник ньютона",
-        "imgPath": "r020103.jpg"
+        "filename": "r020103.jpeg"
       }
     ],
     "party": [
       {
         "title": "Домашний набор для приготовления коктейлей ",
-        "imgPath": "r020201.jpg"
+        "filename": "r020201.jpeg"
       },
       {
         "title": "Bluetooth колонка",
-        "imgPath": "r020202.jpg"
+        "filename": "r020202.jpeg"
       },
       {
         "title": "Фотоаппарат мнговенной печати Polaroid",
-        "imgPath": "r020203.jpg"
+        "filename": "r020203.jpeg"
       }
     ],
     "homebody": [
       {
         "title": "Уютный домашний плед",
-        "imgPath": "r020301.jpg"
+        "filename": "r020301.jpeg"
       },
       {
         "title": "Кресло-мешок",
-        "imgPath": "r020302.jpg"
+        "filename": "r020302.jpeg"
       },
       {
         "title": "Домашние тапочки",
-        "imgPath": "r020303.jpg"
+        "filename": "r020303.jpeg"
       }
     ],
     "athlete": [
       {
         "title": "Домашний тренажер",
-        "imgPath": "r020401.jpg"
+        "filename": "r020401.jpeg"
       },
       {
         "title": "Кворик для тренировок",
-        "imgPath": "r020402.jpg"
+        "filename": "r020402.jpeg"
       },
       {
         "title": "Комплекс витаминов или упаковку спортивного питания",
-        "imgPath": "r020403.jpg"
+        "filename": "r020403.jpeg"
       }
     ]
   },
@@ -119,53 +119,53 @@
     "little": [
       {
         "title": "Чехол для телефона",
-        "imgPath": "r030101.jpg"
+        "filename": "r030101.jpeg"
       },
       {
         "title": "Оригинальная кружка",
-        "imgPath": "r030102.jpg"
+        "filename": "r030102.jpeg"
       },
       {
         "title": "Набор для покера",
-        "imgPath": "r030103.jpg"
+        "filename": "r030103.jpeg"
       }
     ],
     "very": [
       {
         "title": "Планшет или смартфон, например iPad",
-        "imgPath": "r030201.jpg"
+        "filename": "r030201.jpeg"
       },
       {
         "title": "Путевка на море",
-        "imgPath": "r030202.jpg"
+        "filename": "r030202.jpeg"
       },
       {
         "title": "Дорогое украшение. Классический пример - часы",
-        "imgPath": "r030203.jpg"
+        "filename": "r030203.jpeg"
       }
     ],
     "economical": [
       {
         "title": "Копилка для мелочи",
-        "imgPath": "r030301.jpg"
+        "filename": "r030301.jpeg"
       },
       {
         "title": "Большая упаковка фруктового чая с различными вкусами",
-        "imgPath": "r030302.jpg"
+        "filename": "r030302.jpeg"
       },
       {
         "title": "Оригинальная флешка",
-        "imgPath": "r030303.jpg"
+        "filename": "r030303.jpeg"
       }
     ],
     "urgently": [
       {
         "title": "Деньги в долларах",
-        "imgPath": "r030401.jpg"
+        "filename": "r030401.jpeg"
       },
       {
         "title": "Подарочный сертификат, например на фотосессию",
-        "imgPath": "r030402.jpg"
+        "filename": "r030402.jpeg"
       }
     ]
   },
@@ -173,49 +173,49 @@
     "technical": [
       {
         "title": "Электрическая зубная щетка",
-        "imgPath": "r040101.jpg"
+        "filename": "r040101.jpeg"
       },
       {
         "title": "Экшн камера или квадрокоптер",
-        "imgPath": "r040102.jpg"
+        "filename": "r040102.jpeg"
       },
       {
         "title": "Проектор",
-        "imgPath": "r040103.jpg"
+        "filename": "r040103.jpeg"
       }
     ],
     "eater": [
       {
         "title": "Торт на заказ",
-        "imgPath": "r040201.jpg"
+        "filename": "r040201.jpeg"
       },
       {
         "title": "Нож для пиццы и пиццу на заказ",
-        "imgPath": "r040202.jpg"
+        "filename": "r040202.jpeg"
       },
       {
         "title": "Подарочный набор мёда",
-        "imgPath": "r040203.jpg"
+        "filename": "r040203.jpeg"
       }
     ],
     "forgetful": [
       {
         "title": "Настольные часы будильник",
-        "imgPath": "r040301.jpg"
+        "filename": "r040301.jpeg"
       },
       {
         "title": "Стильный ежедневник или записную книжку",
-        "imgPath": "r040302.jpg"
+        "filename": "r040302.jpeg"
       }
     ],
     "laconic": [
       {
         "title": "Новый кошелек",
-        "imgPath": "r040401.jpg"
+        "filename": "r040401.jpeg"
       },
       {
         "title": "Акцию крупной компании или деньги в криптовалюте",
-        "imgPath": "r040402.jpg"
+        "filename": "r040402.jpeg"
       }
     ]
   },
@@ -223,45 +223,45 @@
     "humorous": [
       {
         "title": "Футболка с прикольной надписью",
-        "imgPath": "r050101.jpg"
+        "filename": "r050101.jpeg"
       },
       {
         "title": "Конструктор Lego",
-        "imgPath": "r050102.jpg"
+        "filename": "r050102.jpeg"
       }
     ],
     "creativity": [
       {
         "title": "Набор для рисования",
-        "imgPath": "r050201.jpg"
+        "filename": "r050201.jpeg"
       },
       {
         "title": "Музыкальный инструмент",
-        "imgPath": "r050202.jpg"
+        "filename": "r050202.jpeg"
       }
     ],
     "ambitious": [
       {
         "title": "Книгу по бизнесу",
-        "imgPath": "r050301.jpg"
+        "filename": "r050301.jpeg"
       },
       {
         "title": "Патчи для глаз или маску для сна",
-        "imgPath": "r050302.jpg"
+        "filename": "r050302.jpeg"
       }
     ],
     "introvert": [
       {
         "title": "Интересная книга",
-        "imgPath": "r050401.jpg"
+        "filename": "r050401.jpeg"
       },
       {
         "title": "Полноразмерные наушники",
-        "imgPath": "r050402.jpg"
+        "filename": "r050402.jpeg"
       },
       {
         "title": "Солнцезащитные очки",
-        "imgPath": "r050403.jpg"
+        "filename": "r050403.jpeg"
       }
     ]
   }
