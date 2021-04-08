@@ -1,5 +1,7 @@
 import React, {useEffect} from 'react'
 import PropTypes from 'prop-types'
+import {LazyLoadImage} from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 import './Result.scss'
 import data from './resultAnswers.json'
 
@@ -25,10 +27,11 @@ function Result({showWelcome, resultsArr}) {
             {giftsArr.map(i =>
                 <div key={i.filename}>
                     <h3 className="result__title">{i.title}</h3>
-                    <img
+                    <LazyLoadImage
                         src={`${process.env.PUBLIC_URL}/images/${i.filename}`}
                         alt={i.title}
                         className="result__img"
+                        effect="blur"
                     />
                 </div>
             )}
