@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 @import "../../Assets/styles/variabels";
 
 .result {
   @include background();
   @include adaptive-font(25, 14);
+  min-width: 85%;
   box-sizing: border-box;
   padding: 4%;
   margin-bottom: 5%;
@@ -11,6 +12,7 @@
   border-radius: 30px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 
   &__title {
     color: #1E1407;

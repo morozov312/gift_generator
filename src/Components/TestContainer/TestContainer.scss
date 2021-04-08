@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 @import "../../Assets/styles/variabels";
 
 .test {
   @include adaptive-font(22, 12);
   @include background();
   width: 100%;
-  min-height: 55%;
+  min-height: 24em;
   padding: 3em 2.5em;
   color: #524f4e;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.3em;
   border: 1px #ffeede solid;
   border-radius: 2em;
