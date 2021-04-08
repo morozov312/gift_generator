@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-easy-gift/static/css/main.4ec74d4f.chunk.css",
+    "main.js": "/react-easy-gift/static/js/main.3aee2902.chunk.js",
+    "main.js.map": "/react-easy-gift/static/js/main.3aee2902.chunk.js.map",
+    "runtime-main.js": "/react-easy-gift/static/js/runtime-main.bfa05afc.js",
+    "runtime-main.js.map": "/react-easy-gift/static/js/runtime-main.bfa05afc.js.map",
+    "static/css/2.6ef2fac9.chunk.css": "/react-easy-gift/static/css/2.6ef2fac9.chunk.css",
+    "static/js/2.36ea84f6.chunk.js": "/react-easy-gift/static/js/2.36ea84f6.chunk.js",
+    "static/js/2.36ea84f6.chunk.js.map": "/react-easy-gift/static/js/2.36ea84f6.chunk.js.map",
+    "index.html": "/react-easy-gift/index.html",
+    "static/css/2.6ef2fac9.chunk.css.map": "/react-easy-gift/static/css/2.6ef2fac9.chunk.css.map",
+    "static/css/main.4ec74d4f.chunk.css.map": "/react-easy-gift/static/css/main.4ec74d4f.chunk.css.map",
+    "static/js/2.36ea84f6.chunk.js.LICENSE.txt": "/react-easy-gift/static/js/2.36ea84f6.chunk.js.LICENSE.txt",
+    "static/media/big_gift.e40b6ccd.png": "/react-easy-gift/static/media/big_gift.e40b6ccd.png",
+    "static/media/cut_gift.a81b30f8.svg": "/react-easy-gift/static/media/cut_gift.a81b30f8.svg",
+    "static/media/main.0048fc95.png": "/react-easy-gift/static/media/main.0048fc95.png",
+    "static/media/smal_gifts.f1eaffc1.svg": "/react-easy-gift/static/media/smal_gifts.f1eaffc1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfa05afc.js",
+    "static/css/2.6ef2fac9.chunk.css",
+    "static/js/2.36ea84f6.chunk.js",
+    "static/css/main.4ec74d4f.chunk.css",
+    "static/js/main.3aee2902.chunk.js"
+  ]
+}
