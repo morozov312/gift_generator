@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import "../../Assets/styles/variabels";
 
 .result {
   @include background();
-  @include adaptive-font(25, 10);
+  @include adaptive-font(25, 14);
   box-sizing: border-box;
   padding: 4%;
-  margin: 5% 0;
+  margin-bottom: 5%;
   border: 2px #000000 solid;
   border-radius: 30px;
   text-align: center;
@@ -14,7 +14,7 @@
 
   &__title {
     color: #1E1407;
-    max-width: 50%;
+    max-width: 70%;
     margin: 2em auto;
     line-height: 1.3em;
   }
@@ -24,8 +24,15 @@
     height: 450px;
     margin: 0 auto;
     object-fit: cover;
+    max-width: 70%;
     @media (max-width: 1024px) {
       height: 300px;
+    }
+    @media (max-width: 768px) {
+      height: 250px;
+    }
+    @media (max-width: 425px) {
+      height: 200px;
     }
   }
 
@@ -40,19 +47,8 @@
     &:hover {
       background-color: #F68657;
       border-color: #F68657;
-      transition: all .5s ease-in;
+      color: #F2F2F2;
+      transition: all .3s ease-in;
     }
-  }
-}
-
-@media (max-width: 1024px) {
-  .giftImg-small {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .giftImg {
-    display: none;
   }
 }

@@ -9,13 +9,12 @@
 
   &__btn-container {
     position: absolute;
-    overflow: hidden;
     bottom: 0;
     width: 100%;
   }
 
   &__btn {
-    @include adaptive-font(30, 17);
+    @include adaptive-font(30, 16);
     font-family: 'Caveat', cursive;
     text-transform: uppercase;
     font-weight: 400;
@@ -32,6 +31,9 @@
       background: transparent;
       transition: all .4s ease-in-out;
     }
+    @media (max-width: 425px) {
+     margin-bottom: -12%;
+    }
   }
 
   &__img {
@@ -39,11 +41,11 @@
     object-fit: cover;
     max-width: 103%;
   }
-}
 
-@media (max-width: 425px) {
-  .welcome {
+  @media (max-width: 425px) {
     height: 50%;
   }
 }
+
+
 

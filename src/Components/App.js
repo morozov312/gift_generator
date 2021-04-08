@@ -26,15 +26,19 @@ function App() {
         }
     }
 
+    const isHidden = (visible === RESULT) ? 'hiddenImg' : ''
+
     return (
-        <Context.Provider value={resultAnswers}>
-            <img src={bigGift} alt="big gift" className="giftImg giftImg-big"/>
-            <img src={cutGift} alt="cut gift logo" className="giftImg giftImg-cut"/>
-            <main className="content">
-                {renderItem(visible, setVisible)}
-            </main>
-            <img src={smallGifts} alt="small gifts" className="giftImg giftImg-small"/>
-        </Context.Provider>
+        <>
+            <Context.Provider value={resultAnswers}>
+                <img src={bigGift} alt="big gift" className={"giftImg giftImg-big " + isHidden}/>
+                <img src={cutGift} alt="cut gift logo" className={"giftImg giftImg-cut " + isHidden}/>
+                <img src={smallGifts} alt="small gifts" className={"giftImg giftImg-small " + isHidden}/>
+                <main className="content">
+                    {renderItem(visible, setVisible)}
+                </main>
+            </Context.Provider>
+        </>
     )
 }
 

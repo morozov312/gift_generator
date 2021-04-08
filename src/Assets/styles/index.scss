@@ -4,10 +4,13 @@
   width: 0;
 }
 
+html {
+  background-color: #3d0b0b;
+}
+
 #root {
   width: 100vw;
   min-height: 100vh;
-  background-color: #3d0b0b;
   color: #ffffff;
   font-size: 25px;
 }

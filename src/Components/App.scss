@@ -1,16 +1,17 @@
 .content {
-  width: 55%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 85%;
+  padding-top: 2.7em;
+  min-height: 85vh;
   @media (max-width: 1024px) {
     width: 70%;
   }
   @media (max-width: 550px) {
-    height: 100%;
     width: 90%;
+    padding-top: 1em;
   }
 }
 
@@ -20,12 +21,12 @@
 
   &-big {
     right: 0;
-    max-width: 35%;
+    max-width: 17%;
     @media (max-width: 1024px) {
-      max-width: 23%;
+      max-width: 15%;
     }
     @media (max-width: 550px) {
-      max-width: 35%;
+      max-width: 33%;
     }
   }
 
@@ -34,22 +35,28 @@
     left: 4%;
     top: 2%;
     @media (max-width: 1024px) {
-      max-width: 13%;
+      max-width: 10%;
     }
     @media (max-width: 550px) {
-      max-width: 20%;
+      max-width: 17%;
     }
   }
 
   &-small {
-    max-width: 20%;
+    max-width: 17%;
     right: 1%;
     bottom: 1%;
     @media (max-width: 1024px) {
-      max-width: 35%;
+      max-width: 30%;
     }
     @media (max-width: 550px) {
       max-width: 45%;
     }
+  }
+}
+
+.hiddenImg {
+  @media (max-width: 1024px) {
+    display: none;
   }
 }
