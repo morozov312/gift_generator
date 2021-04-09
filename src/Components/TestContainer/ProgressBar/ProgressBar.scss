@@ -57,6 +57,10 @@
       &:before, &:after {
         background-color: $activeColor;
       }
+
+      &:after {
+        height: 4px;
+      }
     }
 
     .animate:after {
